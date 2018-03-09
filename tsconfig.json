@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "lib": ["es2015", "es2017", "dom"],
+    "sourceMap": true,
+    "outDir": "build/"
+  },
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ],
+  "files": [
+    "server/index.ts"
+  ]
+}
